@@ -1,26 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <style>
 html, body {
-  margin: 0;
-  padding: 0;
-  background: black;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    overflow: hidden;
 }
+
 video {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
 }
 </style>
 </head>
+
 <body>
+
 <video autoplay loop muted playsinline>
-  <source src="film.mp4" type="video/mp4">
+    <source src="PioterQ_15s_loop_45s.mp4" type="video/mp4">
 </video>
+
 </body>
 </html>
